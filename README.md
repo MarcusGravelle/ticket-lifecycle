@@ -116,4 +116,11 @@ Photo shows fix for Sev-B, tone is appropriate for speaking to the customer and 
 <br />
 
 <h2>End Result</h2>
-All Tickets sorted, altered to correct SLA, & completed with time allowed as shown by SLA. Practice in using SEV-A, SEV-B, & SEV-C along with fixing different issues submitted as tickets.
+This lab demonstrates a complete, working ticket workflow in osTicket—from intake to verified closure—running on an Azure-hosted Windows environment with IIS. Three representative incidents were created and triaged with the correct routing and SLAs, then worked to completion with clear agent communication and audit trails:
+
+- **Sev-A (1 hour, 24/7)** — Business-critical outage (**Online Banking System Outage**) routed to **Support**, prioritized and resolved within target.
+- **Sev-B (4 hours, 24/7)** — Department-level application issue (**Accounting export to PDF failing**) assigned to **Support**, corrected and communicated to affected users.
+- **Sev-C (8 hours, business hours)** — Individual device failure (**CFO laptop won’t power on**) handled by **Support** with documented fix and closure.
+
+Each ticket shows proper lifecycle transitions (**Open → In Progress → Closed**), appropriate **Department** and **SLA** application, and agent updates suitable for end-user communication. Final screenshots in the repository confirm creation, triage, and “All Tickets Closed,” demonstrating SLA compliance and a production-style help-desk workflow.
+
