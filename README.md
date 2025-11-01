@@ -114,3 +114,6 @@ Photo shows fix for Sev-B, tone is appropriate for speaking to the customer and 
   
 </p>
 <br />
+
+<h2>End Result</h2>
+All Tickets sorted, altered to correct SLA, & completed with time allowed as shown by SLA. Practice in using SEV-A, SEV-B, & SEV-C along with fixing different issues.
