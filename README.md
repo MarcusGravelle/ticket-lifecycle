@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Ticket Lifecycle: Intake Through Resolution</h1>
-This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket. It follows the lab checklist sequence (department prep, three test tickets, permissions behavior, and closeout). :contentReference[oaicite:2]{index=2}
+This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket. It follows the lab checklist sequence (department prep, three test tickets, permissions behavior, and closeout). 
 
 
 <h2>Environments and Technologies Used</h2>
@@ -31,7 +31,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 <p>
 <strong>1) Intake – Business-Critical Outage (Ticket A):</strong><br/>
 End-user submits: “<em>Online Banking System Outage</em>” at <code>http://localhost/osTicket</code>.<br/>
-As Agent <em>john</em>, open the ticket in the Agent Panel and set properties: <strong>SLA = Sev-A (1 hour, 24/7)</strong>, <strong>Department = Online Banking</strong>, verify <em>Priority</em> and <em>Assigned To</em>. This classifies it as a critical outage. :contentReference[oaicite:4]{index=4}
+As Agent <em>john</em>, open the ticket in the Agent Panel and set properties: <strong>SLA = Sev-A (1 hour, 24/7)</strong>, <strong>Department = Online Banking</strong>, verify <em>Priority</em> and <em>Assigned To</em>. This classifies it as a critical outage. 
 </p>
 <p>
 <img src="https://i.imgur.com/hu8Kyvh.png" height="80%" width="80%" alt="Ticket Creation by Karen"/>
@@ -50,7 +50,7 @@ Ticket is marked as Emergency to be fixed under an SLA of SEV-A
 <p>
 <strong>2) Intake – Application Issue (Ticket B):</strong><br/>
 End-user submits: “<em>=Accounting Department Software Failure</em>”.<br/>
-As <em>Marcus</em>, set properties to: <strong>SLA = Sev-B (4 hours, 24/7)</strong>, <strong>Department = Support</strong>; verify priority/assignee. This is urgent but not a full outage. Work this ticket through to completion as <em>john</em>. :contentReference[oaicite:6]{index=6}
+As <em>Marcus</em>, set properties to: <strong>SLA = Sev-B (4 hours, 24/7)</strong>, <strong>Department = Support</strong>; verify priority/assignee. This is urgent but not a full outage. Work this ticket through to completion as <em>john</em>. 
 </p>
 <p>
 <img src="https://i.imgur.com/4PpWB5M.png" height="80%" width="80%" alt="Ticket B intake and Sev-B triage"/>
@@ -65,7 +65,7 @@ Ticket Submitted by Ken for issue with Accounting Department
 <p>
 <strong>3) Intake – Device Failure (Ticket C):</strong><br/>
 End-user submits: “<em>CFO’s laptop will no longer turn on</em>”.<br/>
-As <em>Marcus</em>, set properties to: <strong>SLA = Sev-C (8 hours, Weekdays)</strong>, <strong>Department = Support</strong>; verify priority/assignee. Work this ticket through to completion as <em>Marcus</em>. :contentReference[oaicite:7]{index=7}
+As <em>Marcus</em>, set properties to: <strong>SLA = Sev-C (8 hours, Weekdays)</strong>, <strong>Department = Support</strong>; verify priority/assignee. Work this ticket through to completion as <em>Marcus</em>. 
 </p>
 <p>
 <img src="https://i.imgur.com/6hCk0cy.png" height="80%" width="80%" alt="Ticket C intake and Sev-C triage"/>
@@ -79,7 +79,7 @@ CFO Laptop Ticket Submitted by Ken, Updated to show SEV-C for Low Priority, Assi
 
 <p>
 <strong>4) Work & Resolution:</strong><br/>
-Process all Tickets to Completion. Use internal notes and public replies as needed; transition status from <em>Open</em> → <em>In Progress</em> → <strong>Closed</strong>. Confirm SLA targets are met (1-hour for Sev-A; 4-hour for Sev-B). Admin login: <code>http://localhost/osTicket/scp/login.php</code> · End-user portal: <code>http://localhost/osTicket</code>. :contentReference[oaicite:8]{index=8}
+Process all Tickets to Completion. Use internal notes and public replies as needed; transition status from <em>Open</em> → <em>In Progress</em> → <strong>Closed</strong>. Confirm SLA targets are met (1-hour for Sev-A; 4-hour for Sev-B). Admin login: <code>http://localhost/osTicket/scp/login.php</code> · End-user portal: <code>http://localhost/osTicket</code>. 
 </p>
 <p>
 <img src="https://i.imgur.com/hX26ZAh.png" height="80%" width="80%" alt="Closing SLA SEV-A"/>
@@ -94,6 +94,10 @@ Fix Found for SEV-B, Updates pushed to employees that were missing Microsoft Pri
 
 Fix Found for SEV-C, new power cable given to CFO. Laptop fully functional now.
 
+<img src="https://i.imgur.com/Nd2s6Do.png" height="80%" width="80%" alt="All Tickets Closed"/>
+
+All Tickets showing Closed in the osTicket System
+
 </p>
 <br />
 
@@ -101,7 +105,7 @@ Fix Found for SEV-C, new power cable given to CFO. Laptop fully functional now.
 
 <p>
 <strong>5) Soft Speaking and Customer Skills(Concept):</strong><br/>
-In all Ticketing software and Help Desk/It Positions Soft Skills or Customer Service is needed for better experience on both Sides. :contentReference[oaicite:9]{index=9}
+In all Ticketing software and Help Desk/It Positions Soft Skills or Customer Service is needed for better experience on both Sides. 
 </p>
 <p>
 <img src="https://i.imgur.com/NvzU506.png height="80%" width="80%" alt="SEV-B Fix"/>
